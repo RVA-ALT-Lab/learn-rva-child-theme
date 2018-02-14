@@ -15,7 +15,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="wrapper" id="wrapper-footer">
 
-	<div class="<?php echo esc_html( $container ); ?>">
+	<div class="<?php echo esc_attr( $container ); ?>">
 
 		<div class="row">
 
@@ -32,8 +32,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 					
 							<?php printf( // WPCS: XSS ok.
 							/* translators:*/
-								esc_html__( 'Theme: %1$s by %2$s.', 'altlab' ), $the_theme->get( 'Name' ),  '<a href="'.esc_url( __('http://altlab.vcu.edu', 'altlab')).'">ALT Lab</a>' ); ?> 
+								esc_html__( 'Theme: %1$s by %2$s.', 'understrap' ), $the_theme->get( 'Name' ),  '<a href="'.esc_url( __('http://understrap.com', 'understrap')).'">understrap.com</a>' ); ?> 
 				
+							(<?php printf( // WPCS: XSS ok.
+							/* translators:*/
+								esc_html__( 'Version: %1$s', 'understrap' ), $the_theme->get( 'Version' ) ); ?>)
 					</div><!-- .site-info -->
 
 				</footer><!-- #colophon -->
@@ -46,10 +49,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 </div><!-- wrapper end -->
 
-</div><!-- #page -->
+</div><!-- #page we need this extra closing tag here -->
 
 <?php wp_footer(); ?>
 
 </body>
 
 </html>
+
