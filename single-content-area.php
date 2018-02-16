@@ -154,7 +154,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 								<div class="card-block">
 									<h4 class="card-title"><?php the_title(); ?></h4>
 									<p><?php the_terms(get_the_ID(), 'work-sample-tags', 'Tagged with ', ', '); ?></p>
-									<a href="<?php the_permalink(); ?>" class="btn btn-secondary"> Read More</a>
+									<a href="<?php the_permalink(); ?>" class="btn btn-primary"> Read More</a>
 								</div>
 							</div>
 							<!-- TODO: Come up with some formatting here for faculty student -->
