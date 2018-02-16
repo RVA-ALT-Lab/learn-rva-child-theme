@@ -1,6 +1,13 @@
 // Use this file to overwrite the basic Bootstrap variables and add your own variables
-// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder. 
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
 // Just copy a variable from src/sass/bootstrap4/_variables.scss, paste it here and edit the value.
 
 
-$primary: #8753D5; // Thats a sample how you could change a BootStrap variable.
+$brand-primary: #314E8C;
+
+$brand-secondary: #f8c051;
+
+$vcu-gold:						#FFBA00;
+$vcu-gray:   					#63656A;
+$vcu-orange: 					#E57200;
+$vcu-aqua:						#00B3BE;
