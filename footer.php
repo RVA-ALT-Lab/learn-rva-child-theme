@@ -12,9 +12,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
 <?php get_sidebar( 'footerfull' ); ?>
-
+<img class="footer-svg" src="<?php echo get_template_directory_uri();?>/img/learn-rva-graphic.svg" alt="">
 <div class="wrapper" id="wrapper-footer">
-
 	<div class="<?php echo esc_html( $container ); ?>">
 
 		<div class="row">
@@ -22,8 +21,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<div class="col-md-12">
 
 				<footer class="site-footer" id="colophon">
+				<p class="lead text-center">Story, Conversation, Connection <br>Learn RVA</p>
 
-					<div class="site-info">
+					<div class="site-info text-center">
 
 							<a href="<?php  echo esc_url( __( 'http://wordpress.org/','understrap' ) ); ?>"><?php printf(
 							/* translators:*/
