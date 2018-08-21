@@ -9654,6 +9654,9 @@ footer.site-footer {
   flex: 1 1 auto;
   padding: 1.25rem; }
 
+.widget-area aside {
+  margin-bottom: 1.5em; }
+
 /*
 * Use existing Bootstrap 4 classes and
 * variables to extend - override CF7 style

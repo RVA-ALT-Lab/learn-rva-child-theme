@@ -56,6 +56,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
                 <?php endwhile; ?>
                 <?php wp_reset_postdata(); ?>
             </div>
+            <?php understrap_pagination(); ?>
             <!-- Sidebar brings in col-md-4 automatically, does not need container -->
             <?php get_template_part( 'global-templates/right-sidebar-check' ); ?>
         </div><!-- .row -->

@@ -51,6 +51,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 			<p class="lead">LearnRVA is a shared platform meant to tell the story of Richmond, serve as a springboard for future conversations, and make connections in a hub for Richmond-oriented research development.</p>
 			<p class="lead">The driving force behind LearnRVA is a belief that academia is deeply intertwined with this city and that this research is important to share.</p>
 			<p class="lead">As educators, community members, and leaders, Richmond is a site for inquiry, and LearnRVA seeks to foster engagement and holistic understanding of the community.</p>
+			<a href="/about" class="btn btn-primary">Read Our Full Charter</a>
 			</div>
 			</main><!-- #main -->
 
