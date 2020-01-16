@@ -49,7 +49,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
                                     <?php echo get_the_title(); ?>
                                 </h3>
                             </a>
-                            <p class="card-text"><?php echo get_the_excerpt(); ?></p>
+                            <p class="card-text"><?php echo get_field('description'); ?></p>
                         </div>
                     </div>
 
