@@ -12,7 +12,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
 <?php get_sidebar( 'footerfull' ); ?>
-<img class="footer-svg" src="<?php echo get_template_directory_uri();?>/img/learn-rva-graphic.svg" alt="">
+<!-- <img class="footer-svg" src="<?php echo get_template_directory_uri();?>/img/learn-rva-graphic.svg" alt=""> -->
 <div class="wrapper" id="wrapper-footer">
 	<div class="<?php echo esc_html( $container ); ?>">
 

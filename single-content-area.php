@@ -79,26 +79,13 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 											</p>
 										</div>
 									</a>
-						</div>
-						<br>
-						<div class="card-deck">
-									<a class="card text-center" href="#test-knowledge">
-										<div class="card-block">
-											<i class="fa fa-question fa-4x"></i>
-											<br>
-											<br>
-											<p class="card-text">
-												Test Your Knowledge
-											</p>
-										</div>
-									</a>
 									<a class="card text-center" href="#work-samples">
 										<div class="card-block">
 										<i class="fa fa-graduation-cap fa-4x"></i>
 										<br>
 										<br>
 											<p class="card-text">
-												Faculty and Student Work
+												Course Projects
 											</p>
 										</div>
 									</a>
@@ -114,10 +101,6 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 					<h3>Get Involved</h3><a id="get-involved" name="get-involved"></a>
 					<?php the_field('get_involved'); ?>
 				</div>
-				<div class="content-section">
-					<h3>Test Knowledge</h3><a id="test-knowledge" name="test-knowledge"></a>
-					<?php echo do_shortcode(the_field('quiz_shortcode_')); ?>
-				</div>
 
 				<?php endwhile; ?>
 
@@ -127,7 +110,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 
 				<?php endif; ?>
 				<div class="content-section">
-					<h3>Faculty and Student Involvement</h3><a id="work-samples" name="work-samples"></a>
+					<h3>Course Projects</h3><a id="work-samples" name="work-samples"></a>
 					<div class="card-deck">
 					<?php
 					$args = array(

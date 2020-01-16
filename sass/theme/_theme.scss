@@ -159,15 +159,11 @@
 
  @include media-breakpoint-up(md) {
 
-     .section-tile .panel-transparency {
-         display: none;
-     }
 
      .section-tile:hover .panel-transparency {
          display: block;
      }
 
-     .section-tile .panel-body h2,
      .tile-text {
          opacity: 0;
          transition: all 500ms;
@@ -241,6 +237,14 @@
 
 .widget-area aside {
     margin-bottom: 1.5em;
+}
+
+.header-cutout-text {
+  background-color: white;
+  padding: 1em;
+  color: black;
+  mix-blend-mode: screen;
+  display: inline-block;
 }
 
 

@@ -21,18 +21,25 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 	<?php get_template_part( 'global-templates/hero', 'none' ); ?>
 <?php endif; ?>
 
-<div class="jumbotron">
+<div class="jumbotron" style="background-image: linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ), url(http://learnrva.org/wp-content/uploads/sites/24118/2018/08/14441947138_e5f3e1cb29_k.jpg);background-size:cover;background-repeat:no-repeat;">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 mt-5">
-				<h2>View Course Projects</h2>
-				<p>Get inspiration on how to engage your students in the community using successful course projects.</p>
-				<a class="btn btn-primary" href="/course-projects">View Projects</a>
+				<div class="header-cutout-text">
+					<h2>View Course Projects</h2>
+					<p>Get inspiration on how to engage your students in the community using successful course projects.</p>
+					<a class="btn btn-primary" href="/course-projects">View Projects</a>
+				</div>
 			</div>
 			<div class="col-lg-6 mt-5">
-				<h2>Learn About Richmond</h2>
-				<p>Figure out the unique cultural, social, and historical aspect of the RVA area that align with your course.</p>
-				<a class="btn btn-primary" href="/focus-areas">Learn About RVA</a>
+				<div class="header-cutout-text">
+					<h2>Learn About Richmond</h2>
+					<p>Seek unique cultural, social, and historical aspects of the RVA area that align with your course.</p>
+					<a class="btn btn-primary" href="/focus-areas">Learn About RVA</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -43,9 +50,9 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 
 	<div class="<?php echo esc_html( $container ); ?>" id="content" tabindex="-1">
 
-		<div class="row">
 
 			<main class="site-main" id="main">
+			<div class="row">
 			<div class="col-lg-12">
 					<h3>About Learn RVA</h3>
 			<p class="lead">LearnRVA is a shared platform meant to tell the story of Richmond, serve as a springboard for future conversations, and make connections in a hub for Richmond-oriented research development.</p>
@@ -53,10 +60,8 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 			<p class="lead">As educators, community members, and leaders, Richmond is a site for inquiry, and LearnRVA seeks to foster engagement and holistic understanding of the community.</p>
 			<a href="/about" class="btn btn-primary">Read Our Full Charter</a>
 			</div>
-			</main><!-- #main -->
-
-
-		</div><!-- .row -->
+			</div><!-- .row -->
+		</main><!-- #main -->
 		<div class="row">
     		<div class="col-lg-12">
 			</div>
