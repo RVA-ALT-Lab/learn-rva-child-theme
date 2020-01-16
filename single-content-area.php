@@ -57,40 +57,6 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 					<div class="content-section">
 						<?php the_content(); ?>
 					</div>
-					<div class="content-section navigation hidden-sm-down">
-						<div class="card-deck">
-									<a class="card text-center" href="#learn-more">
-											<div class="card-block">
-											<i class="fa fa-university fa-4x"></i>
-												<br>
-												</br>
-												<h5 class="card-text">
-													Learn More
-												</h5>
-											</div>
-									</a>
-									<a class="card text-center" href="#get-involved">
-										<div class="card-block">
-										<i class="fa fa-users fa-4x"></i>
-											<br>
-											<br>
-											<p class="card-text">
-												Get Involved
-											</p>
-										</div>
-									</a>
-									<a class="card text-center" href="#work-samples">
-										<div class="card-block">
-										<i class="fa fa-graduation-cap fa-4x"></i>
-										<br>
-										<br>
-											<p class="card-text">
-												Course Projects
-											</p>
-										</div>
-									</a>
-						</div>
-					</div>
 
 				<div class="content-section">
 					<h3>Learn More</h3><a id="learn-more" name="learn-more"></a>
