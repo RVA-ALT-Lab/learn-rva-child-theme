@@ -24,7 +24,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 <div class="jumbotron" style="background-image: linear-gradient(
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
-    ), url(http://learnrva.org/wp-content/uploads/sites/24118/2018/08/14441947138_e5f3e1cb29_k.jpg);background-size:cover;background-repeat:no-repeat;">
+    ), url(http://learnrva.org/wp-content/uploads/sites/24118/2018/08/15140594339_a4f82592ba_z.jpg);background-size:cover;background-repeat:no-repeat;">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 mt-5">
