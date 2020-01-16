@@ -21,7 +21,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<div class="col-md-12">
 
 				<footer class="site-footer" id="colophon">
-				<p class="lead text-center">Story, Conversation, Connection <br>Learn RVA</p>
 
 					<div class="site-info text-center">
 
